@@ -1,4 +1,4 @@
-Follow the setup and first steps instructions to get a JUnit project running and create a class named MyFirstTest inside of the src/test/java directory and do the following:
+Follow the setup and first steps instructions to get a JUnit project running and create a class named StudentTest inside of the src/test/java directory and do the following:
 Create a test method that uses assertEquals or assertNotEquals to verify if the String Codeup is the same as CodeUp.
 Create a test method that uses assertNotSame to verify that the following ArrayLists are not the same:
 List<String> languages = new ArrayList<>();
