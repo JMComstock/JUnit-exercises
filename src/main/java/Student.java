@@ -40,10 +40,10 @@ public class Student {
         }
         return sum / this.grades.size() ;
 
-    //returns the updated grade
-//    public double updateGrade();
+    // returns the updated grade
+//    public void updateGrade();
 
     // deletes the grade
 //    public double deleteGrade();
-    }
+
 }

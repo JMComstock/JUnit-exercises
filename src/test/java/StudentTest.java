@@ -14,7 +14,7 @@ public class StudentTest {
     @Test
     public void testStudentFields(){
         Student student1 = new Student(1, "Jason");
-        assertSame(1, student1.getId());
+        assertEquals(1, student1.getId());
         assertSame("Jason", student1.getName());
         assertSame(0, student1.getGrades().size());
     }
