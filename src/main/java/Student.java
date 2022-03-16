@@ -35,15 +35,16 @@ public class Student {
     // returns the average of the students grades
     public double getGradeAverage() {
         double sum = 0;
-        for (int grade: this.grades) {
+        for (int grade : this.grades) {
             sum += grade;
         }
-        return sum / this.grades.size() ;
+        return sum / this.grades.size();
 
-    // returns the updated grade
+        // returns the updated grade
 //    public void updateGrade();
 
-    // deletes the grade
+        // deletes the grade
 //    public double deleteGrade();
 
+    }
 }
